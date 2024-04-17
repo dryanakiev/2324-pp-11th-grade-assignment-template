@@ -1,26 +1,26 @@
 package project.crm.DAL.models;
 
 import jakarta.persistence.*;
-import project.crm.DAL.models.templates.AuthenticationTemplate;
+import project.crm.DAL.models.components.Authentication;
+import project.crm.DAL.models.components.BaseModel;
+import project.crm.DAL.models.components.PersonalInfo;
+
 
 @Entity
-@Table(name="Users")
-public class User extends AuthenticationTemplate {
+@Table(name = "Users")
+public class User extends BaseModel {
 
-    public User(Long id, boolean isDeleted) {
+    @Embedded
+    private Authentication authentication;
+
+    @Embedded
+    private PersonalInfo personalInfo;
+
+    public User(Long id, String firstName, String lastName, String email, String phone,
+                String username, String password, boolean isDeleted) {
         super(id, isDeleted);
+        this.authentication = new Authentication(username, password);
+        this.personalInfo = new PersonalInfo(firstName, lastName, email, phone);
     }
-
-    @Column(name = "first_name")
-    private String firstName;
-
-    @Column(name = "last_name")
-    private String lastName;
-
-    @Column(name = "email", unique = true)
-    private String email;
-
-    @Column(name = "phone")
-    private String phone;
 }
 

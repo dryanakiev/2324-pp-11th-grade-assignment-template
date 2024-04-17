@@ -1,15 +1,15 @@
-package project.crm.DAL.models.templates;
+package project.crm.DAL.models.components;
 
 import jakarta.persistence.*;
 
 @MappedSuperclass
-public abstract class BaseTemplate {
-    public BaseTemplate(Long id, boolean isDeleted) {
+public abstract class BaseModel {
+    public BaseModel(Long id, boolean isDeleted) {
         this.id = id;
         this.isDeleted = isDeleted;
     }
 
-    public BaseTemplate() {
+    public BaseModel() {
 
     }
 
