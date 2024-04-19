@@ -12,6 +12,10 @@ public class PersonalInfo {
         this.phone = phone;
     }
 
+    public PersonalInfo() {
+
+    }
+
     @Column(name = "first_name")
     private String firstName;
 

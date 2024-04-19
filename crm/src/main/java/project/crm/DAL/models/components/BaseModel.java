@@ -12,7 +12,6 @@ public abstract class BaseModel {
     public BaseModel() {
 
     }
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

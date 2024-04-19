@@ -12,6 +12,10 @@ public class Role extends BaseModel {
         this.name = name;
     }
 
+    public Role() {
+
+    }
+
     @Column(name = "name", nullable = false, unique = true)
     private String name;
 

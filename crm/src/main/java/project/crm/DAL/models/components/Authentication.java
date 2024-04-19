@@ -10,6 +10,10 @@ public class Authentication {
         this.password = password;
     }
 
+    public Authentication() {
+
+    }
+
     @Column(name = "username", unique = true)
     private String username;
 

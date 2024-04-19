@@ -13,6 +13,10 @@ public class SocialNetworks {
         this.instagramLink = instagramLink;
     }
 
+    public SocialNetworks() {
+
+    }
+
     @Column(name = "facebook_link")
     private String facebookLink;
 
