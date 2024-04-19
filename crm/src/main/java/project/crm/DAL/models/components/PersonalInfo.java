@@ -59,4 +59,13 @@ public class PersonalInfo {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "PersonalInfo{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }

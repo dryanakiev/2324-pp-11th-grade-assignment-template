@@ -60,4 +60,14 @@ public class SocialNetworks {
     public void setInstagramLink(String instagramLink) {
         this.instagramLink = instagramLink;
     }
+
+    @Override
+    public String toString() {
+        return "SocialNetworks{" +
+                "facebookLink='" + facebookLink + '\'' +
+                ", twitterLink='" + twitterLink + '\'' +
+                ", linkedinLink='" + linkedinLink + '\'' +
+                ", instagramLink='" + instagramLink + '\'' +
+                '}';
+    }
 }

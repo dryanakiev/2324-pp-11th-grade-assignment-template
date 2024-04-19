@@ -7,4 +7,11 @@ import jakarta.persistence.Embeddable;
 public class TaskType {
     @Column(name = "type_name")
     private String typeName;
+
+    @Override
+    public String toString() {
+        return "TaskType{" +
+                "typeName='" + typeName + '\'' +
+                '}';
+    }
 }

@@ -27,5 +27,12 @@ public class User extends BaseModel {
     @Embedded
     private PersonalInfo personalInfo;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "authentication=" + authentication +
+                ", personalInfo=" + personalInfo +
+                '}';
+    }
 }
 

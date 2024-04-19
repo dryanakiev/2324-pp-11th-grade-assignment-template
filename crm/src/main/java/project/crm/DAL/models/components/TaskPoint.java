@@ -2,8 +2,6 @@ package project.crm.DAL.models.components;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.ManyToOne;
-import project.crm.DAL.models.components.TaskType;
 
 import java.sql.Timestamp;
 
@@ -51,5 +49,14 @@ public class TaskPoint {
 
     public void setDate(Timestamp date) {
         this.date = date;
+    }
+
+    @Override
+    public String toString() {
+        return "TaskPoint{" +
+                "name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", date=" + date +
+                '}';
     }
 }

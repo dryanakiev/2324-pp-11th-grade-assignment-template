@@ -28,4 +28,12 @@ public class Customer extends BaseModel {
 
     @Embedded
     private SocialNetworks socialNetworks;
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "personalInfo=" + personalInfo +
+                ", socialNetworks=" + socialNetworks +
+                '}';
+    }
 }
