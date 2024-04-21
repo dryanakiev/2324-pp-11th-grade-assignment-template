@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskType.java" afterDir="false" />
+    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Тechnical specifications.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/UserRole.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/PersonalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/PersonalInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/SocialNetworks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/SocialNetworks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ssurivko20&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6903b428-9ac2-4241-bb87-096d639ebb21" />
+        <option name="url" value="https://github.com/codingburgas/2324-pp-11g-individual-assignment-ssurivko20" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,7 +54,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -69,8 +82,8 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ssurivko20/source/repos/PP project/2324-pp-11g-individual-assignment-ssurivko20/crm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "last_opened_file_path": "C:/Users/Maestro/Desktop/crm system project/2324-pp-11g-individual-assignment-ssurivko20/crm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "spring.configuration.checksum": "1fece0cb254f1f45891bc9ee9fed72a9"
   },
   "keyToStringList": {
@@ -79,7 +92,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.CrmApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maestro\Desktop\crm system project\2324-pp-11g-individual-assignment-ssurivko20\crm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CrmApplication">
     <configuration name="CrmApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.crm.CrmApplication" />
       <module name="crm" />

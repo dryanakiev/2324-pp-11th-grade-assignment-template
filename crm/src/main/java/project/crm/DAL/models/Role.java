@@ -30,7 +30,9 @@ public class Role extends BaseModel {
     @Override
     public String toString() {
         return "Role{" +
-                "name='" + name + '\'' +
+                "id=" + getId() +
+                "isDeleted=" + isDeleted() +
+                ", name='" + name + '\'' +
                 '}';
     }
 }

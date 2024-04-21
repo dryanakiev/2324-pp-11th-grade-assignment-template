@@ -32,7 +32,9 @@ public class Customer extends BaseModel {
     @Override
     public String toString() {
         return "Customer{" +
-                "personalInfo=" + personalInfo +
+                "id=" + getId() +
+                "isDeleted=" + isDeleted() +
+                ", personalInfo=" + personalInfo +
                 ", socialNetworks=" + socialNetworks +
                 '}';
     }
