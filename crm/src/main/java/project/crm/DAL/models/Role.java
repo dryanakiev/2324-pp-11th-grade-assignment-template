@@ -12,6 +12,10 @@ public class Role extends BaseModel {
         this.name = name;
     }
 
+    public Role() {
+
+    }
+
     @Column(name = "name", nullable = false, unique = true)
     private String name;
 
@@ -21,5 +25,12 @@ public class Role extends BaseModel {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

@@ -12,7 +12,6 @@ public abstract class BaseModel {
     public BaseModel() {
 
     }
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -34,5 +33,13 @@ public abstract class BaseModel {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "BaseModel{" +
+                "id=" + id +
+                ", isDeleted=" + isDeleted +
+                '}';
     }
 }

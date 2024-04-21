@@ -10,17 +10,29 @@ import project.crm.DAL.models.components.PersonalInfo;
 @Table(name = "Users")
 public class User extends BaseModel {
 
+    public User(Long id, String firstName, String lastName, String email, String phone,
+                String username, String password, boolean isDeleted) {
+        super(id, isDeleted);
+        this.authentication = new Authentication(username, password);
+        this.personalInfo = new PersonalInfo(firstName, lastName, email, phone);
+    }
+
+    public User() {
+
+    }
+
     @Embedded
     private Authentication authentication;
 
     @Embedded
     private PersonalInfo personalInfo;
 
-    public User(Long id, String firstName, String lastName, String email, String phone,
-                String username, String password, boolean isDeleted) {
-        super(id, isDeleted);
-        this.authentication = new Authentication(username, password);
-        this.personalInfo = new PersonalInfo(firstName, lastName, email, phone);
+    @Override
+    public String toString() {
+        return "User{" +
+                "authentication=" + authentication +
+                ", personalInfo=" + personalInfo +
+                '}';
     }
 }
 

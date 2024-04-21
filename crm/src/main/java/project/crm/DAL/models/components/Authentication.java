@@ -10,6 +10,10 @@ public class Authentication {
         this.password = password;
     }
 
+    public Authentication() {
+
+    }
+
     @Column(name = "username", unique = true)
     private String username;
 
@@ -30,6 +34,14 @@ public class Authentication {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Authentication{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
 

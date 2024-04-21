@@ -13,6 +13,10 @@ public class UserRole extends BaseModel {
         this.role = role;
     }
 
+    public UserRole() {
+
+    }
+
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
@@ -35,5 +39,13 @@ public class UserRole extends BaseModel {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    @Override
+    public String toString() {
+        return "UserRole{" +
+                "user=" + user +
+                ", role=" + role +
+                '}';
     }
 }

@@ -13,6 +13,10 @@ public class SocialNetworks {
         this.instagramLink = instagramLink;
     }
 
+    public SocialNetworks() {
+
+    }
+
     @Column(name = "facebook_link")
     private String facebookLink;
 
@@ -55,5 +59,15 @@ public class SocialNetworks {
 
     public void setInstagramLink(String instagramLink) {
         this.instagramLink = instagramLink;
+    }
+
+    @Override
+    public String toString() {
+        return "SocialNetworks{" +
+                "facebookLink='" + facebookLink + '\'' +
+                ", twitterLink='" + twitterLink + '\'' +
+                ", linkedinLink='" + linkedinLink + '\'' +
+                ", instagramLink='" + instagramLink + '\'' +
+                '}';
     }
 }

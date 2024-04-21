@@ -12,6 +12,10 @@ public class PersonalInfo {
         this.phone = phone;
     }
 
+    public PersonalInfo() {
+
+    }
+
     @Column(name = "first_name")
     private String firstName;
 
@@ -55,4 +59,13 @@ public class PersonalInfo {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "PersonalInfo{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }
