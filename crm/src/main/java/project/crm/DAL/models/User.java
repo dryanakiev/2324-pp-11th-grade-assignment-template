@@ -60,7 +60,7 @@ public class User extends BaseModel {
     public String toString() {
         return "User{" +
                 "id=" + getId() +
-                "isDeleted=" + isDeleted() +
+                ", isDeleted=" + isDeleted() +
                 ", authentication=" + authentication +
                 ", personalInfo=" + personalInfo +
                 '}';

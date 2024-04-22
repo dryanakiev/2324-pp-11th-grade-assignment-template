@@ -33,7 +33,7 @@ public class Customer extends BaseModel {
     public String toString() {
         return "Customer{" +
                 "id=" + getId() +
-                "isDeleted=" + isDeleted() +
+                ", isDeleted=" + isDeleted() +
                 ", personalInfo=" + personalInfo +
                 ", socialNetworks=" + socialNetworks +
                 '}';

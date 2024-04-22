@@ -2,43 +2,51 @@ package project.crm.DAL.models;
 
 import jakarta.persistence.*;
 import project.crm.DAL.models.components.BaseModel;
-import project.crm.DAL.models.components.Junction;
 
 @Entity
 @Table(name = "ToDoResponsibles")
 public class ToDoResponsibles extends BaseModel {
 
-    public ToDoResponsibles(Long id, boolean isDeleted, Junction<User, ToDo> junction) {
+    public ToDoResponsibles(Long id, boolean isDeleted, User user, ToDo todo) {
         super(id, isDeleted);
-        this.junction = junction;
+        this.user = user;
+        this.todo = todo;
     }
 
     public ToDoResponsibles() {
-
     }
 
-    @Embedded
-    private Junction<User, ToDo> junction = new Junction<>();
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
-    @AttributeOverrides({
-            @AttributeOverride(name="entity1.id",
-                    column=@Column(name="custom_user_id")),
-            @AttributeOverride(name="entity2.id",
-                    column=@Column(name="custom_to_do_id"))
-    })
+    @ManyToOne
+    @JoinColumn(name = "todo_id")
+    private ToDo todo;
 
-    public Junction<User, ToDo> getJunction() {
-        return junction;
+    public User getUser() {
+        return user;
     }
 
-    public void setJunction(Junction<User, ToDo> junction) {
-        this.junction = junction;
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public ToDo getTodo() {
+        return todo;
+    }
+
+    public void setTodo(ToDo todo) {
+        this.todo = todo;
     }
 
     @Override
     public String toString() {
         return "ToDoResponsibles{" +
-                "junction=" + junction +
+                "id=" + getId() +
+                ", isDeleted=" + isDeleted() +
+                ", user=" + user +
+                ", todo=" + todo +
                 '}';
     }
 }

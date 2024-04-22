@@ -44,7 +44,7 @@ public class Product extends BaseModel {
     public String toString() {
         return "Product{" +
                 "id=" + getId() +
-                "isDeleted=" + isDeleted() +
+                ", isDeleted=" + isDeleted() +
                 ", product=" + product +
                 '}';
     }

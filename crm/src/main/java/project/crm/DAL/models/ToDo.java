@@ -38,7 +38,7 @@ public class ToDo extends BaseModel {
     public String toString() {
         return "ToDo{" +
                 "id=" + getId() +
-                "isDeleted=" + isDeleted() +
+                ", isDeleted=" + isDeleted() +
                 ", task=" + task +
                 '}';
     }
