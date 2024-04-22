@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Тechnical specifications.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/ToDoResponsibles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +51,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -82,8 +80,8 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Maestro/Desktop/crm system project/2324-pp-11g-individual-assignment-ssurivko20/crm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "last_opened_file_path": "C:/Users/ssurivko20/source/repos/PP project/2324-pp-11g-individual-assignment-ssurivko20/crm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "1fece0cb254f1f45891bc9ee9fed72a9"
   },
   "keyToStringList": {
@@ -153,6 +151,9 @@
       <workItem from="1713338091405" duration="265000" />
       <workItem from="1713338374730" duration="2491000" />
       <workItem from="1713422290135" duration="5135000" />
+      <workItem from="1713767971792" duration="558000" />
+      <workItem from="1713768554394" duration="164000" />
+      <workItem from="1713768736888" duration="3740000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,10 @@ package project.crm.DAL.models.components;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @MappedSuperclass
-public abstract class BaseModel {
+public abstract class BaseModel implements Serializable {
     public BaseModel(Long id, boolean isDeleted) {
         this.id = id;
         this.isDeleted = isDeleted;
