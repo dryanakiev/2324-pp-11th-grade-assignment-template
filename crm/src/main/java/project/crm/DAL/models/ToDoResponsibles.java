@@ -18,9 +18,14 @@ public class ToDoResponsibles extends BaseModel {
     }
 
     @Embedded
-    @AttributeOverride(name = "entity1_id", column = @Column(name = "product_type_name"))
-    @AttributeOverride(name = "entity2_id", column = @Column(name = "product_type_name"))
-    private Junction<User, ToDo> junction;
+    private Junction<User, ToDo> junction = new Junction<>();
+
+    @AttributeOverrides({
+            @AttributeOverride(name="entity1.id",
+                    column=@Column(name="custom_user_id")),
+            @AttributeOverride(name="entity2.id",
+                    column=@Column(name="custom_to_do_id"))
+    })
 
     public Junction<User, ToDo> getJunction() {
         return junction;

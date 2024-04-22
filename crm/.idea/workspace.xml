@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/ToDoResponsibles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/TaskPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +60,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CrmApplication.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ssurivko20/source/repos/PP project/2324-pp-11g-individual-assignment-ssurivko20/crm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "1fece0cb254f1f45891bc9ee9fed72a9"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CrmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ssurivko20/source/repos/PP project/2324-pp-11g-individual-assignment-ssurivko20/crm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1fece0cb254f1f45891bc9ee9fed72a9&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Maestro\Desktop\crm system project\2324-pp-11g-individual-assignment-ssurivko20\crm" />
@@ -154,6 +148,7 @@
       <workItem from="1713767971792" duration="558000" />
       <workItem from="1713768554394" duration="164000" />
       <workItem from="1713768736888" duration="3740000" />
+      <workItem from="1713781175301" duration="3888000" />
     </task>
     <servers />
   </component>
