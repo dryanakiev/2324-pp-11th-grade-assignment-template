@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Тechnical specifications.md" afterDir="false" />
+    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="adjust and add models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +143,15 @@
       <workItem from="1713338374730" duration="2491000" />
       <workItem from="1713422290135" duration="5135000" />
     </task>
+    <task id="LOCAL-00001" summary="adjust and add models">
+      <option name="closed" value="true" />
+      <created>1713724684958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713724684960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,5 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adjust and add models" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust and add models" />
   </component>
 </project>
