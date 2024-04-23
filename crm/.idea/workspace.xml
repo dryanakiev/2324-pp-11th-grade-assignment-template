@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
+    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="try to set column names automatically">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ToDoResponsibles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/Junction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,8 +146,17 @@
       <workItem from="1713767971792" duration="558000" />
       <workItem from="1713768554394" duration="164000" />
       <workItem from="1713768736888" duration="3740000" />
-      <workItem from="1713781175301" duration="3888000" />
+      <workItem from="1713781175301" duration="3930000" />
+      <workItem from="1713848155010" duration="619000" />
     </task>
+    <task id="LOCAL-00001" summary="try to set column names automatically">
+      <created>1713785133948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713785133948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="try to set column names automatically" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to set column names automatically" />
   </component>
 </project>
