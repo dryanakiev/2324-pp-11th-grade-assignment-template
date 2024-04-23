@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="try to set column names automatically">
+    <list default="true" id="8a3eba3b-d177-4cd5-9cef-7ae57f45ab01" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/MeetingAttendees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/ProductSales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/crm/DAL/models/components/ToDoResponsibles.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +153,7 @@
       <workItem from="1713768736888" duration="3740000" />
       <workItem from="1713781175301" duration="3930000" />
       <workItem from="1713848155010" duration="619000" />
+      <workItem from="1713864236555" duration="2161000" />
     </task>
     <task id="LOCAL-00001" summary="try to set column names automatically">
       <created>1713785133948</created>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713785133948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace">
+      <created>1713864291688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713864291688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="try to set column names automatically" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to set column names automatically" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
