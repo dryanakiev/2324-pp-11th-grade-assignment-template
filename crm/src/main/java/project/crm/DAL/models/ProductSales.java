@@ -1,10 +1,9 @@
 package project.crm.DAL.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import project.crm.DAL.models.components.BaseModel;
+
+import java.sql.Timestamp;
 
 @Entity
 @Table(name = "ProductSales")
@@ -26,6 +25,12 @@ public class ProductSales extends BaseModel {
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
+    @Column(name = "count")
+    private int count;
+
+    @Column(name = "date")
+    private Timestamp date;
+
     @Override
     public String toString() {
         return "ProductSales{" +
@@ -33,6 +38,8 @@ public class ProductSales extends BaseModel {
                 ", isDeleted=" + isDeleted() +
                 ", product=" + product +
                 ", customer=" + customer +
+                ", count=" + count +
+                ", date=" + date +
                 '}';
     }
 }
