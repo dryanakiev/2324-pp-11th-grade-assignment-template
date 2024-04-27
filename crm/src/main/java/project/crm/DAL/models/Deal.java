@@ -7,9 +7,9 @@ import java.sql.Timestamp;
 
 @Entity
 @Table(name = "Deals")
-public class Deals extends BaseModel {
+public class Deal extends BaseModel {
 
-    public Deals(Long id, boolean isDeleted, User manager, Client client, int count, String description, Timestamp date) {
+    public Deal(Long id, boolean isDeleted, User manager, Client client, int count, String description, Timestamp date) {
         super(id, isDeleted);
         this.manager = manager;
         this.client = client;
@@ -18,7 +18,7 @@ public class Deals extends BaseModel {
         this.date = date;
     }
 
-    public Deals() {}
+    public Deal() {}
 
     @ManyToOne
     @JoinColumn(name = "manager_id")
