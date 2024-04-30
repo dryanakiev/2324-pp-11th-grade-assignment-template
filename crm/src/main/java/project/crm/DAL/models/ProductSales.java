@@ -1,21 +1,19 @@
 package project.crm.DAL.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import project.crm.DAL.models.components.BaseModel;
 
 import java.sql.Timestamp;
 
 @Entity
 @Table(name = "ProductSales")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductSales extends BaseModel {
-
-    public ProductSales(Long id, boolean isDeleted, Product product, Customer customer) {
-        super(id, isDeleted);
-        this.product = product;
-        this.customer = customer;
-    }
-
-    public ProductSales() {}
 
     @ManyToOne
     @JoinColumn(name = "product_id")
@@ -31,15 +29,4 @@ public class ProductSales extends BaseModel {
     @Column(name = "date")
     private Timestamp date;
 
-    @Override
-    public String toString() {
-        return "ProductSales{" +
-                "id=" + getId() +
-                ", isDeleted=" + isDeleted() +
-                ", product=" + product +
-                ", customer=" + customer +
-                ", count=" + count +
-                ", date=" + date +
-                '}';
-    }
 }

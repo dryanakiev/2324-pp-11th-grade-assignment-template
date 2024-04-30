@@ -1,22 +1,19 @@
 package project.crm.DAL.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import project.crm.DAL.models.components.BaseModel;
 import project.crm.DAL.models.components.TaskPoint;
 import project.crm.DAL.models.components.TaskType;
 
 @Entity
 @Table(name = "ToDo")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ToDo extends BaseModel {
-
-    public ToDo(Long id, boolean isDeleted, TaskPoint task) {
-        super(id, isDeleted);
-        this.task = task;
-    }
-
-    public ToDo() {
-
-    }
 
     @Embedded
     @AttributeOverride(name = "date", column = @Column(name = "deadline"))
@@ -26,20 +23,4 @@ public class ToDo extends BaseModel {
     @JoinColumn(name = "to_do_type_id", referencedColumnName = "id")
     private ToDoType toDoType;
 
-    public TaskPoint getTask() {
-        return task;
-    }
-
-    public void setTask(TaskPoint task) {
-        this.task = task;
-    }
-
-    @Override
-    public String toString() {
-        return "ToDo{" +
-                "id=" + getId() +
-                ", isDeleted=" + isDeleted() +
-                ", task=" + task +
-                '}';
-    }
 }

@@ -4,19 +4,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import project.crm.DAL.models.components.BaseModel;
 
 @Entity
 @Table(name = "MeetingAttendees")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class MeetingAttendees extends BaseModel {
-
-    public MeetingAttendees(Long id, boolean isDeleted, Meeting meeting, User user) {
-        super(id, isDeleted);
-        this.meeting = meeting;
-        this.user = user;
-    }
-
-    public MeetingAttendees() {}
 
     @ManyToOne
     @JoinColumn(name = "meeting_id")
@@ -26,13 +24,4 @@ public class MeetingAttendees extends BaseModel {
     @JoinColumn(name = "atendee")
     private User user;
 
-    @Override
-    public String toString() {
-        return "MeetingAttendees{" +
-                "id=" + getId() +
-                ", isDeleted=" + isDeleted() +
-                ", meeting=" + meeting +
-                ", user=" + user +
-                '}';
-    }
 }

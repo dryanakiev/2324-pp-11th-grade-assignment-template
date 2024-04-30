@@ -1,19 +1,18 @@
 package project.crm.DAL.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import project.crm.DAL.models.components.BaseModel;
 import project.crm.DAL.models.components.PersonalInfo;
 
 @Entity
 @Table(name = "Client")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Client extends BaseModel {
-
-    public Client(Long id, boolean isDeleted, PersonalInfo personalInfo) {
-        super(id, isDeleted);
-        this.personalInfo = personalInfo;
-    }
-
-    public Client() {}
 
     @Embedded
     private PersonalInfo personalInfo;
@@ -22,12 +21,4 @@ public class Client extends BaseModel {
     @JoinColumn(name = "manager_id")
     private User user;
 
-    @Override
-    public String toString() {
-        return "Client{" +
-                "id=" + getId() +
-                ", isDeleted=" + isDeleted() +
-                ", personalInfo=" + personalInfo +
-                '}';
-    }
 }

@@ -1,38 +1,19 @@
 package project.crm.DAL.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import project.crm.DAL.models.components.BaseModel;
 
 @Entity
 @Table(name = "roles")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Role extends BaseModel {
-
-    public Role(Long id, boolean isDeleted, String name) {
-        super(id, isDeleted);
-        this.name = name;
-    }
-
-    public Role() {
-
-    }
 
     @Column(name = "name", nullable = false, unique = true)
     private String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Role{" +
-                "id=" + getId() +
-                ", isDeleted=" + isDeleted() +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
