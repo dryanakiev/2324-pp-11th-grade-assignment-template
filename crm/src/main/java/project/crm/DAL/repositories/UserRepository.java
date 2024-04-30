@@ -1,9 +1,9 @@
 package project.crm.DAL.repositories;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.ListPagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import project.crm.DAL.models.User;
 
 @Repository
-public interface UserRepository extends PagingAndSortingRepository<User, Long> {
+public interface UserRepository extends ListPagingAndSortingRepository<User, Long> {
 }
